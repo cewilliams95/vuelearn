@@ -45,3 +45,6 @@ Vue course to prepare for web app development at NYA
 - ```v-for="element in list"``` this will create and duplicate an element prop you can call the list with ```{{ element }}``` and get its index by changing to  ```v-for="(element, index) in list"``` and then call ```{{ element}}``` and ```{{ index }}```
 - Can loop multiple dom elements with ```<template>``` again to group
 - You can nest ```v-for``` and use an arbitrary name to loop values in the object from the upper ```v-for```
+- When looping through objects you can use parentheses to get key-value pairs with ```v-for="(value, key) in object"``` a third variable in the parenteses will give you the index ```v-for="(value, key, index) in object"```
+- list of numbers: ```v-for="n in 100"``` will list 1-100 in ```{{ n }}```
+- 
